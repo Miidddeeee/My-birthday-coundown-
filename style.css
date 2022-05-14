@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,700;1,900&display=swap");
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'roboto', sans-serif;
+	color: white ;
+	background: black;
+}
+h1{
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0 0 0;
+}
+.numcon{
+	display: flex;
+	text-align: center;
+	margin-top: 30px;
+}
+.numcon span {
+	display: flex;
+}
+.days, .hours, .min, .seconds{
+	font-size: 2rem ;
+	margin: 0 2rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+#age{
+	margin: 5% auto;
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+		font-weight: bold ;
+}
