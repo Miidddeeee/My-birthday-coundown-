@@ -1,5 +1,5 @@
 let year = 2022;
-let birthday = (`16 may ${year} 12:03:00`);
+let birthday = (`16 may ${year}`);
 let birthYear = 2001;
 let age = year - birthYear;
 
